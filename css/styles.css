@@ -1,0 +1,170 @@
+/* Root CSS variables for theme colors */
+:root {
+    --primary-color: #C75B7A;        /* Default primary color */
+    --secondary-color: #9A4160;      /* Default secondary color */
+    --background-color: #F9EEF1;     /* Default background color */
+    --text-color: #2C2E3A;           /* Default text color */
+    --border-color: #B5B5B5;         /* Default border color */
+}
+
+/* General body and background */
+body, html {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;               /* Ensure body covers full viewport height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Force vertical scrollbar to prevent content shift */
+html {
+    overflow-y: scroll;
+}
+
+/* Main container styling */
+.container {
+    flex: 1;                          /* Allows content area to grow */
+    padding: 1rem;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: var(--secondary-color);
+}
+
+.navbar-brand, .nav-link {
+    color: #FFFFFF !important;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Footer styling */
+footer {
+    background-color: var(--secondary-color);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+    flex-shrink: 0;                   /* Prevent footer from shrinking */
+    width: 100%;
+}
+
+/* Center footer content */
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Social icons in footer */
+footer .bi {
+    font-size: 1.5em;
+    color: #FFFFFF;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer .bi:hover {
+    color: var(--primary-color);
+}
+
+/* Spacing for footer items */
+footer p, footer .mt-2 {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+/* Style for progress bar */
+.progress-bar {
+    background-color: var(--primary-color);
+}
+
+/* Accordion styling */
+.accordion-button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-size: 1.1em;
+    border: none;
+    padding: 0.5rem 1rem;            /* Compact header padding */
+    height: 2.5rem;                   /* Adjusted height for consistency */
+    transition: background-color 0.3s;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--secondary-color);
+    color: #FFFFFF;
+}
+
+.accordion-button:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.accordion-body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-top: 1px solid var(--border-color);
+}
+
+/* Lecture row styling */
+.lecture-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.lecture-row .form-check-label {
+    color: var(--text-color) !important;
+    font-size: 1em;
+    text-decoration: none;
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.lecture-row .form-check-input {
+    width: 1.3em;
+    height: 1.3em;
+    accent-color: var(--primary-color); /* Apply theme color to checkboxes */
+}
+
+/* Filter dropdown styling */
+#categoryFilter {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: 1px solid var(--secondary-color);
+    padding: 0.3rem 0.5rem;
+}
+
+#categoryFilter option {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Button styling */
+button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #D1748D;
+}
+
+/* Additional utility classes for spacing */
+.mb-3 {
+    margin-bottom: 1rem;
+}
+.mt-3 {
+    margin-top: 1rem;
+}
