@@ -19,13 +19,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function renderLectures(filter = "All") {
         accordion.innerHTML = ""; // Clear the accordion content
-
+    
         lectureData.forEach((item, index) => {
             const filteredLectures = item.lectures.filter(lecture => filter === "All" || lecture.category === filter);
-
+    
             // Skip rendering if no lectures match the filter
             if (filteredLectures.length === 0) return;
-
+    
             const itemHTML = `
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="heading${index}">
@@ -38,12 +38,12 @@ document.addEventListener("DOMContentLoaded", function() {
                             ${filteredLectures.map((lecture, lectureIndex) => {
                                 const lectureId = `${item.week}-${lecture.label}`;
                                 const isChecked = completedLectures[lectureId] ? 'checked' : '';
-
+    
                                 return `
                                     <div class="lecture-row d-flex justify-content-between align-items-center">
                                         <label class="form-check-label d-flex align-items-center" for="${lectureId}">
                                             <i class="bi ${lecture.type === 'Video' ? 'bi-play-circle-fill' : 'bi-file-earmark-arrow-down-fill'} me-2"></i> 
-                                            <span>${lecture.label}</span>
+                                            <a href="${lecture.url}" target="_blank" class="text-decoration-none">${lecture.label}</a> <!-- Added anchor tag here -->
                                         </label>
                                         <input type="checkbox" class="form-check-input" id="${lectureId}" ${isChecked} onchange="toggleLectureCompletion('${lectureId}')">
                                     </div>
@@ -55,9 +55,10 @@ document.addEventListener("DOMContentLoaded", function() {
             `;
             accordion.innerHTML += itemHTML;
         });
-
+    
         updateProgress(); // Update progress when rendering lectures
     }
+    
 
     // Toggle lecture completion and update progress bar
     window.toggleLectureCompletion = function(lectureId) {

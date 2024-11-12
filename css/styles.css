@@ -86,7 +86,7 @@ footer p, footer .mt-2 {
 .accordion-button {
     background-color: var(--primary-color);
     color: var(--text-color);
-    font-size: 1.1em;
+    font-size: 0.7em;
     border: none;
     padding: 0.5rem 1rem;            /* Compact header padding */
     height: 2.5rem;                   /* Adjusted height for consistency */

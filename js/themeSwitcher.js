@@ -57,14 +57,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const themeSelector = document.getElementById("themeSelector");
 
     populateThemeSelector(); // Populate selector
-    const savedTheme = localStorage.getItem("selectedTheme") || "lavender"; // Default theme
-    themeSelector.value = savedTheme;
-    applyTheme(themes[savedTheme]);
 
-    // Listen for theme change
+    // Load saved theme or default to "blush" if undefined
+    const savedThemeKey = localStorage.getItem("selectedTheme") || "blush"; 
+    themeSelector.value = savedThemeKey;
+
+    // Apply theme if it exists, otherwise apply "blush" as a fallback
+    const savedTheme = themes[savedThemeKey] || themes["blush"];
+    applyTheme(savedTheme);
+
+    // Listen for theme changes
     themeSelector.addEventListener("change", (event) => {
-        const selectedTheme = event.target.value;
-        applyTheme(themes[selectedTheme]);
-        saveTheme(selectedTheme);
+        const selectedThemeKey = event.target.value;
+        const selectedTheme = themes[selectedThemeKey];
+        applyTheme(selectedTheme);
+        saveTheme(selectedThemeKey);
     });
 });
