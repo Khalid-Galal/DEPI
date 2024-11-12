@@ -12,7 +12,7 @@ const lectureData = [
                 type: "PDF", 
                 url: "https://drive.google.com/file/d/1enJHMwU8ADjEcnywQOxXVKScENeDuNBG/view?usp=drivesdk", 
                 label: "Lecture 1 (PDF)", 
-                category: "Non-Technical" 
+                category: "Technical" 
             },
             { 
                 type: "Video", 
@@ -41,7 +41,7 @@ const lectureData = [
                 type: "PDF", 
                 url: "https://drive.google.com/file/d/1vLC3D9ygCuZCYK0XZ3iGvnJp2-8CjwjL/view?usp=drivesdk", 
                 label: "Lecture 3 (PDF)", 
-                category: "Non-Technical" 
+                category: "Technical" 
             },
             { 
                 type: "Video", 
@@ -53,7 +53,7 @@ const lectureData = [
                 type: "PDF", 
                 url: "https://drive.google.com/file/d/16U6K4k7zxrpvxtEgWGng4zJpm3BKD6lH/view?usp=drivesdk", 
                 label: "Lecture 4 (PDF)", 
-                category: "Non-Technical" 
+                category: "Technical" 
             },
             { 
                 type: "Video", 
@@ -82,7 +82,7 @@ const lectureData = [
                 type: "PDF", 
                 url: "https://drive.google.com/file/d/1h0x-VD9zwYS8uCR9YgenufLRBdyudEOU/view?usp=drivesdk", 
                 label: "Lecture 6 (PDF)", 
-                category: "Non-Technical" 
+                category: "Technical" 
             },
             { 
                 type: "Video", 
@@ -94,13 +94,13 @@ const lectureData = [
                 type: "PDF", 
                 url: "https://drive.google.com/file/d/1hvOdp9Mmb0R38SGJdtTJQzQ4Gm-UTwg9/view?usp=drivesdk", 
                 label: "Lecture 7 (PDF)", 
-                category: "Non-Technical" 
+                category: "Technical" 
             },
             { 
                 type: "PDF", 
                 url: "https://drive.google.com/file/d/1VYKYfT-_n6LI2nuxoV1GwJcTT8WEDzVl/view?usp=drivesdk", 
                 label: "Lecture 7 (PDF)", 
-                category: "Non-Technical" 
+                category: "Technical" 
             }
         ]
     },
