@@ -190,7 +190,7 @@ const lectureData = [
                 url: "https://drive.google.com/file/d/1bRjdnFj29ptUuUKKFKaskroHT1oG77gO/view?usp=drive_link", 
                 label: "Lecture 13 (PDF)", 
                 category: "Technical" 
-            },
+            }
             // { 
             //     type: "Video", 
             //     url: "https://itccollegprot039-my.sharepoint.com/personal/ghr66_itccollegprot039_onmicrosoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fghr66%5Fitccollegprot039%5Fonmicrosoft%5Fcom%2FDocuments%2FRecordings%2FVulnerability%20Analyst%20%20Penetration%20Tester%20%2D%20GLB%20%2D%20CAI2%5FISS3%5FG1%20%2D%203H%2D20241109%5F193638%2DMeeting%20Recording%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E80ca8af6%2Db99c%2D4110%2Dad39%2D1b11e30322d0", 
