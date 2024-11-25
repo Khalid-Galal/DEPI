@@ -15,7 +15,7 @@ const themes = {
         background: "#FBE9E7",
         text: "#2F2D2D",
         border: "#C5A9A8"
-    }, 
+    },
     pink: {
         name: "Pink",
         primary: "#C75B7A",
@@ -23,8 +23,17 @@ const themes = {
         background: "#F9EEF1",
         text: "#2C2E3A",
         border: "#B5B5B5"
+    } ,
+    black: {
+        name: "Black",
+        primary: "#2F2F2F", // Very soft black for primary elements
+        secondary: "#3B3B3B", // Slightly lighter for secondary elements
+        background: "#242424", // Dark gray for a smoother background
+        text: "#D6D6D6", // Softer gray for text, less contrasty
+        border: "#343434" // Smooth border that blends subtly
     }
 };
+
 
 // Populate theme selector
 function populateThemeSelector() {
