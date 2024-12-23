@@ -233,18 +233,12 @@ const lectureData = [
             //     label: "Lecture 16 (PDF)", 
             //     category: "Technical" 
             // },
-            // { 
-            //     type: "Video", 
-            //     url: "", 
-            //     label: "Lecture 17 (Video)", 
-            //     category: "Non-Technical" 
-            // },
-            // { 
-            //     type: "PDF", 
-            //     url: "", 
-            //     label: "Lecture 17 (PDF)", 
-            //     category: "Non-Technical" 
-            // }
+            { 
+                type: "PDF", 
+                url: "https://drive.google.com/drive/folders/1z2Zzaz9Tfeh2-a26Po8IaurtOYZ6QL4x", 
+                label: "Employment Coaching Lecture 17 offline (PDF)", 
+                category: "Non-Technical" 
+            }
         ]
     },
     {
