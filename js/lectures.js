@@ -122,7 +122,6 @@ const lectureData = [
             }
         ]
     },
-    // Add more weeks as needed
     {
         week: "Week 4",
         lectures: [
@@ -329,7 +328,7 @@ const lectureData = [
                 category: "Non-Technical" 
             }
         ]
-    }
+    },
     {
         week: "Week 9",
         lectures: [
