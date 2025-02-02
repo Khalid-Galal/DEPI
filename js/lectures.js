@@ -5,25 +5,25 @@ const lectureData = [
             { 
                 type: "Video", 
                 url: "https://itccollegprot039-my.sharepoint.com/:v:/g/personal/ghr66_itccollegprot039_onmicrosoft_com/EXo3ZUvYh7hBmKG_9yiAW8QByNvmmIvHbku5WFmK7mRnbA?e=rZsGom", 
-                label: "Lecture 1 (Video)", 
+                label: "Lecture 1 Introduction to Networking and Cybersecurity (Video)", 
                 category: "Technical" 
             },
             { 
                 type: "PDF", 
                 url: "https://drive.google.com/file/d/1enJHMwU8ADjEcnywQOxXVKScENeDuNBG/view?usp=drivesdk", 
-                label: "Lecture 1 (PDF)", 
+                label: "Lecture 1 Introduction to Networking and Cybersecurity (PDF)", 
                 category: "Technical" 
             },
             { 
                 type: "Video", 
-                url: "https://itccollegprot039-my.sharepoint.com/personal/ghr66_itccollegprot039_onmicrosoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fghr66%5Fitccollegprot039%5Fonmicrosoft%5Fcom%2FDocuments%2FRecordings%2FVulnerability%20Analyst%20%20Penetration%20Tester%20%2D%20GLB%20%2D%20CAI2%5FISS3%5FG1%20%2D%203H%2D20241026%5F152944%2DMeeting%20Recording%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec717bc2a%2D5faa%2D4230%2D9fad%2Daee5ff51a3f7", 
-                label: "Lecture 2 (Video)", 
+                url: "https://itccollegprot039-my.sharepoint.com/personal/ghr66_itccollegprot039_onmicrosoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fghr66%5Fitccollegprot039%5Fonmicrosoft%5Fcom%2FDocuments%2FRecordings%2FVulnerability%20Analyst%20%20Penetration%20Tester%20%2D%20GLB%20%2D%20CAI2%5FISS3%5FG1%20%2D%203H%2D20241026%5F152944%2DMeeting%20Recording%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E52278e78%2D9228%2D4a24%2D8960%2Dd0d9cfe1769a", 
+                label: "Lecture 2 SKILLS FOR PROFESSIONAL FREELANCERS (Video)", 
                 category: "Non-Technical" 
             },
             { 
                 type: "PDF", 
-                url: "#", 
-                label: "Lecture 2 (PDF)", 
+                url: "https://docs.google.com/presentation/d/1rs2CscLcksTFS_EWUK10CbZo1j2OLWtG/edit#slide=id.p1", 
+                label: "Lecture 2 SKILLS FOR PROFESSIONAL FREELANCERS (PDF)", 
                 category: "Non-Technical" 
             }
         ]
@@ -34,19 +34,19 @@ const lectureData = [
             { 
                 type: "Video", 
                 url: "https://itccollegprot039-my.sharepoint.com/:v:/g/personal/ghr66_itccollegprot039_onmicrosoft_com/EZxc8-JPByhDr7v0BBwIc9IBVCwxJoXeUjGRASYhslV6Mw?e=ChY35w&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D", 
-                label: "Lecture 3 (Video)", 
+                label: "Lecture 3 Introduction to Networking and Cybersecurity (Video)", 
                 category: "Technical" 
             },
             { 
                 type: "PDF", 
-                url: "https://drive.google.com/file/d/1vLC3D9ygCuZCYK0XZ3iGvnJp2-8CjwjL/view?usp=drivesdk", 
-                label: "Lecture 3 (PDF)", 
+                url: "https://drive.google.com/file/d/1enJHMwU8ADjEcnywQOxXVKScENeDuNBG/view?usp=drivesdk", 
+                label: "Lecture 3 Introduction to Networking and Cybersecurity (PDF)", 
                 category: "Technical" 
             },
             { 
                 type: "Video", 
-                url: "#", 
-                label: "Lecture 4 (Video)", 
+                url: "", 
+                label: "Lecture 4 Offline (Video)", 
                 category: "Technical" 
             },
             { 
@@ -56,15 +56,21 @@ const lectureData = [
                 category: "Technical" 
             },
             { 
+                type: "PDF", 
+                url: "https://drive.google.com/drive/folders/1yOVojPL9px3LDCWC6sAjmZqhUKAT1nDn", 
+                label: "Lecture 4 Introduction to Kali Linux(PDF)", 
+                category: "Technical" 
+            },
+            { 
                 type: "Video", 
                 url: "https://vimeo.com/1025706622/8ff0c1cf57?share=copy", 
-                label: "Lecture 5 (Video)", 
+                label: "Lecture 5 Personal Branding(Video)", 
                 category: "Non-Technical" 
             },
             { 
                 type: "PDF", 
-                url: "#", 
-                label: "Lecture 5 (PDF)", 
+                url: "https://drive.google.com/drive/folders/1f-WJftjsJRYepQtKjsHUyii5_E1Diq0Y", 
+                label: "Lecture 5 Personal Branding(PDF)", 
                 category: "Non-Technical" 
             }
         ]
@@ -316,21 +322,46 @@ const lectureData = [
                 category: "Technical" 
                 //20/12/2024
             },
-            // { 
-            //     type: "Video", 
-            //     url: "", 
-            //     label: "Lecture 8 (Video)", 
-            //     category: "Non-Technical" 
-            // },
-            // { 
-            //     type: "PDF", 
-            //     url: "", 
-            //     label: "Lecture 8 (PDF)", 
-            //     category: "Non-Technical" 
-            // }
+            { 
+                type: "Video", 
+                url: "https://itccollegprot039-my.sharepoint.com/:v:/g/personal/ghr66_itccollegprot039_onmicrosoft_com/Ed3UHfcYMGJAiVSWhWJPX3kBq7yde8cGlPJCSEGWhzXEoA?e=vhoTVe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D", 
+                label: "Budgueting Lecture 23 (Video)", 
+                category: "Non-Technical" 
+            }
+        ]
+    }
+    {
+        week: "Week 9",
+        lectures: [
+            { 
+                type: "Video", 
+                url: "https://itccollegprot039-my.sharepoint.com/:v:/g/personal/ghr66_itccollegprot039_onmicrosoft_com/EUBUXwr3wBNCofzIb99u7ZoB-iMPe-xoznL4sbqY4GWKDQ?e=ojnXzP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D", 
+                label: "Mobile Application Penetration Testing Lecture 24 (Video)", 
+                category: "Technical" 
+            },
+            { 
+                type: "PDF", 
+                url: "https://drive.google.com/file/d/1NWqTrYninKtNGcVYgDxTRqJWK0HeJJuG/view?usp=sharing", 
+                label: "Mobile Application Penetration Testing Lecture 24 (PDF)", 
+                category: "Technical" 
+            },
+            { 
+                type: "Video", 
+                url: "", 
+                label: "Lecture 25 offline (Video)", 
+                category: "Technical" 
+            }
+            { 
+                type: "Video", 
+                url: "https://itccollegprot039-my.sharepoint.com/:v:/g/personal/ghr66_itccollegprot039_onmicrosoft_com/Ebcd0V_MZNlKqdKhrUgAU1IBR5GEqhdvdu1nXrboc_vIkg?e=vf98If&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D", 
+                label: "Lecture 26 (Video)", 
+                category: "Non-Technical" 
+            }
+            //28/12/2024
         ]
     },
-    // {
+
+        // {
     //     week: "Week 6",
     //     lectures: [
     //         { 
