@@ -349,7 +349,7 @@ const lectureData = [
                 url: "", 
                 label: "Lecture 25 offline (Video)", 
                 category: "Technical" 
-            }
+            },
             { 
                 type: "Video", 
                 url: "https://itccollegprot039-my.sharepoint.com/:v:/g/personal/ghr66_itccollegprot039_onmicrosoft_com/Ebcd0V_MZNlKqdKhrUgAU1IBR5GEqhdvdu1nXrboc_vIkg?e=vf98If&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D", 
